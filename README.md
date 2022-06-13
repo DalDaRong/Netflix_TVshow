@@ -30,6 +30,7 @@ python(BeautifulSoup), DBMS
 
 #### 1) Score Table
 <img src="https://user-images.githubusercontent.com/96275852/173320468-7afa8aa6-1de3-4168-a09c-cd131cae4f43.png" width="80%" height="80%"></img>
+</br>
 작품 순위를 보여줍니다. 서비스된 국가 수와 기간 등을 고려해 점수가 집계되었습니다. 2020년과 2021년도 각각 상위 150개의 데이터를 스크래핑하고, 이후 detail table 작업을 위해 작품의 제목을 리스트에 담았습니다.
 ```
 res = requests.get('https://flixpatrol.com/top10/netflix/world/2021/full/#netflix-2')
